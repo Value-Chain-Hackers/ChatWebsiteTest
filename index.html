@@ -8,7 +8,29 @@
         body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
         h1 { color: #333; }
         p { color: #555; }
+        
+        /* Chatbot customization styles */
+        #dify-chatbot-bubble-button {
+            background-color: #1C64F2 !important;
+        }
+        #dify-chatbot-bubble-window {
+            width: 24rem !important;
+            height: 40rem !important;
+        }
     </style>
+
+    <!-- Chatbot Integration -->
+    <script>
+        window.difyChatbotConfig = {
+            token: 'eWgMByvp3dZexfB5',
+            baseUrl: 'https://web-production-ae39.up.railway.app'
+        };
+    </script>
+    <script
+        src="https://web-production-ae39.up.railway.app/embed.min.js"
+        id="eWgMByvp3dZexfB5"
+        defer>
+    </script>
 </head>
 <body>
     <h1>Welcome to My GitHub Pages Site!</h1>
